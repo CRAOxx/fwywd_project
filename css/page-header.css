@@ -1,11 +1,10 @@
 .logo {
-  width: 130px;
+  width: 140px;
 }
 
 .page-header {
   display: flex;
   justify-content: space-between;
-  background-color: #eee;
   margin: 0 auto;
   padding: 0 2%;
 }
