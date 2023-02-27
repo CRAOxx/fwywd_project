@@ -16,7 +16,8 @@ nav {
 
 .main-nav {
   display: flex;
-  font-size: 1rem;
+  font-size: 1.12rem;
+  letter-spacing: 2px;
 }
 
 .main-nav li {
@@ -24,5 +25,5 @@ nav {
 }
 
 .main-nav a {
-  color: #28b9ba;
+  color: #008c90;
 }
