@@ -2,7 +2,10 @@
 @import "reset.css";
 @import "page-header.css";
 @import "home-contents.css";
+@import "page-footer.css";
 
 body {
   font-family: "Noto Sans JP", sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
 }

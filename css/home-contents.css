@@ -1,3 +1,8 @@
+.big-bg {
+  background: url(/img/bg-skills.png) no-repeat 0 620px,
+    url(/img/bg-about.png) no-repeat 0 0,
+    url(/img/bg-future.png) no-repeat 0 1680px;
+}
 /*title-contents*/
 
 .title-contents {
@@ -26,16 +31,8 @@
 
 /*about-contents*/
 
-.about-bg {
-  background-image: url(/img/bg-about.png);
-  background-repeat: no-repeat;
-  min-width: 1440px;
-  height: 762px;
-  background-position: center top;
-}
-
 .about-contents {
-  padding: 100px;
+  padding-top: 80px;
 }
 
 .wrapper {
@@ -58,7 +55,7 @@
   letter-spacing: 2px;
 }
 
-.about-bg h4 {
+h4 {
   font-size: 1.5rem;
   color: #008c90;
 }
@@ -87,19 +84,15 @@
 
 /*skills-contents*/
 
-.skills-bg {
-  background-image: url(/img/bg-skills.png);
-  background-repeat: no-repeat;
-  min-width: 1440px;
-  height: 691px;
-  background-position: center top;
-  position: relative;
-  top: -110px;
+.skill-bg {
+  padding-top: 160px;
 }
 
 .skills-contents {
   display: flex;
   justify-content: center;
+  max-width: 1270px;
+  margin: 0 auto;
 }
 
 .skills-textbox-title {
@@ -116,19 +109,13 @@
   letter-spacing: 2px;
 }
 
-.skills-contents {
-  padding: 150px 100px 100px 100px;
-  max-width: 1270px;
-  margin: 0 auto;
-}
-
 .skills-img {
   width: 535px;
   height: 372px;
 }
 
 .skills-contents-status {
-  padding: 0px 129px 0 50px;
+  padding: 0px 110px 0 50px;
 }
 
 .skills-textbox p {
@@ -180,4 +167,81 @@ ul {
   justify-content: space-between;
   font-size: 1.2rem;
   color: #359f9f;
+}
+
+/*values-contents*/
+
+.values-bg {
+  margin-top: 160px;
+}
+
+.values__cards__contents {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  max-width: 1050px;
+  margin: 0 auto;
+  margin-top: 40px;
+  padding-bottom: 30px;
+}
+
+.cards__values {
+  text-align: center;
+}
+
+.long-icon {
+  border-right: solid #008c90;
+  opacity: 0.3;
+  height: 430px;
+}
+
+.values-textbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.values-textbox p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 12px;
+  color: #008c90;
+  letter-spacing: 2px;
+}
+
+/*future-contents*/
+
+.future-textbox-title {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.future-textbox-title span {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 12px;
+  color: #008c90;
+  letter-spacing: 2px;
+}
+
+.future-textbox {
+  padding-right: 40px;
+}
+
+.future-textbox p {
+  margin-top: 20px;
+  text-align: justify;
+  line-height: 1.8;
+  color: #384556;
+  font-weight: 400;
+}
+
+.future-contents {
+  display: flex;
+  justify-content: center;
+  max-width: 1050px;
+  margin: 0px auto;
+  padding: 80px 0;
 }
