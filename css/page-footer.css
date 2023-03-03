@@ -1,13 +1,54 @@
 .page-footer {
-  text-align: center;
-  background-color: navy;
+  background-color: #262c3a;
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.name-box {
-  margin-top: 40px;
+.page-footer__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-footer__text {
+  padding-top: 50px;
+  font-size: 0.8rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-footer__text p {
+  letter-spacing: 3px;
+}
+
+.page-footer__text a {
+  margin-left: 18px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
   color: white;
 }
 
-.footer-img {
-  margin-top: 45px;
+.footer-logo {
+  width: 145px;
+  margin-top: 70px;
+}
+
+.sns-container {
+  margin-top: 50px;
+}
+
+.icon-list img {
+  width: 25px;
+}
+
+.icon-list a:last-child {
+  margin-left: 20px;
+}
+
+.copyright-text {
+  margin: 40px 0;
+  letter-spacing: 2px;
 }
